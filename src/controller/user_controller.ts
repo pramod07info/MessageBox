@@ -6,9 +6,9 @@ import cors from 'cors';
 import  LoggerService   from '../logger/LoggerService'
 class UserController {
     private userRepository = new UserRepository();
-    public path = '/user';
+    public path = '/register';
     public pathCompose = '/compose';
-    public pathMessage = '/message';
+    public pathReply = '/reply';
     public router = express.Router();
     public app = express();
 
@@ -18,21 +18,21 @@ class UserController {
     public intializeRoutes() {
         this.router.post(this.path,cors(), this.createUser);
         this.router.post(this.pathCompose,cors(), this.composeMessage);
-        this.router.post(this.pathMessage,cors(), this.createMessage);
+        this.router.post(this.pathReply,cors(), this.replyMessage);
     }
     createUser = async (request: express.Request, response: express.Response) => {
-        LoggerService.writeInfoLog("============ Request For Create Feed back==============="+request.body);
+        LoggerService.writeInfoLog("============ CREATE USER ==============="+request.body);
         const result = await this.userRepository.createUser(request)
         response.send(result);
     }
     composeMessage = async (request: express.Request, response: express.Response) => {
-        LoggerService.writeInfoLog("============ Request For Create Feed back==============="+request.body);
+        LoggerService.writeInfoLog("============ COMPOSE MESSAGE ==============="+request.body);
         const result = await this.userRepository.compose(request)
         response.send(result);
     }
-    createMessage = async (request: express.Request, response: express.Response) => {
-        LoggerService.writeInfoLog("============ Request For Create Feed back==============="+request.body);
-        const result = await this.userRepository.createMessage(request)
+    replyMessage = async (request: express.Request, response: express.Response) => {
+        LoggerService.writeInfoLog("============ REPLY MESSAGE ==============="+request.body);
+        const result = await this.userRepository.replyMessage(request)
         response.send(result);
     }
 }

@@ -93,3 +93,17 @@
 {"timeStamp":"9/22/2020, 11:58:05 AM","message":"INSERT INTO \"public\".\"message\" (\"conversationId\",\"message\",\"userId\") VALUES ($1,$2,$3) RETURNING \"public\".\"message\".\"id\"","level":"error"}
 {"timeStamp":"9/22/2020, 11:58:05 AM","message":"SELECT \"public\".\"message\".\"id\", \"public\".\"message\".\"conversationId\", \"public\".\"message\".\"message\", \"public\".\"message\".\"userId\", \"public\".\"message\".\"created\" FROM \"public\".\"message\" WHERE \"public\".\"message\".\"id\" = $1 LIMIT $2 OFFSET $3","level":"error"}
 {"timeStamp":"9/22/2020, 11:58:05 AM","message":"COMMIT","level":"error"}
+{"timeStamp":"9/22/2020, 5:04:51 PM","message":"============ Request For Create Feed back===============[object Object]","level":"info"}
+{"timeStamp":"9/22/2020, 5:04:52 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"9/22/2020, 5:04:52 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"9/22/2020, 5:04:52 PM","message":"BEGIN","level":"error"}
+{"timeStamp":"9/22/2020, 5:04:52 PM","message":"INSERT INTO \"public\".\"user\" (\"userName\",\"fullName\",\"email\",\"picture\",\"role\",\"created\") VALUES ($1,$2,$3,$4,$5,$6) RETURNING \"public\".\"user\".\"id\"","level":"error"}
+{"timeStamp":"9/22/2020, 5:04:52 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"9/22/2020, 5:04:52 PM","message":"COMMIT","level":"error"}
+{"timeStamp":"9/22/2020, 7:13:13 PM","message":"============ Request For Create Feed back===============[object Object]","level":"info"}
+{"timeStamp":"9/22/2020, 7:13:14 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"9/22/2020, 7:13:14 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"9/22/2020, 7:13:14 PM","message":"BEGIN","level":"error"}
+{"timeStamp":"9/22/2020, 7:13:14 PM","message":"INSERT INTO \"public\".\"user\" (\"userName\",\"fullName\",\"email\",\"picture\",\"role\",\"created\") VALUES ($1,$2,$3,$4,$5,$6) RETURNING \"public\".\"user\".\"id\"","level":"error"}
+{"timeStamp":"9/22/2020, 7:13:14 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"9/22/2020, 7:13:14 PM","message":"COMMIT","level":"error"}

@@ -175,7 +175,7 @@ export class UserRepository {
 			async () => await prisma.$disconnect()
 		}		
 	}
-	async createMessage(req: any) {
+	async replyMessage(req: any) {
 		try {
 			let resultFindByUserName = await prisma.user.findOne({
 				where:{
