@@ -2,6 +2,9 @@
 import { PrismaClient } from '@prisma/client'
 import LoggerService from '../logger/LoggerService';
 import {IResponse} from '../model/index';
+import {Conversation} from '../dto/conversation';
+import { stringify } from 'querystring';
+
 const prisma = new PrismaClient({
 	errorFormat: 'minimal',
 	log: [
@@ -232,19 +235,86 @@ export class UserRepository {
 		try {
 			let resultFindByUserName = await prisma.user.findOne({
 				where:{
-					userName:req.body.userName
+					userName:req.params.userName
 				}
 			})
 			if(resultFindByUserName != null){			
 				const result = await prisma.conversation.findMany({
 					where:{
-						
+						fromUser:resultFindByUserName.id
+					},
+					select:{
+						id:true,
+						user_conversation_toUserTouser:{
+							select:{
+								id:true,
+								userName:true,
+								fullName:true,
+								picture:true
+							}
+						},
+						message:{
+							select:{
+								conversationId:true,
+								id:true,
+								message:true,
+								created:true,
+								user:{
+									select:{
+										id:true,
+										userName:true,
+										fullName:true,
+										picture:true,
+									}
+								}
+							}
+						}
 					}
 				});
+				if(result != null){
+					
+					let messageArray = [] as  any;
+					result[0].message.forEach(function(value:any) {
+						let messageConversation = {
+							messageId:"",
+							userName:"",
+							fullName:"",
+							picture:"",
+							message:"",
+							created:"",
+						};
+						console.log("Message:-- ",value)
+						messageConversation.messageId = value.id
+						messageConversation.userName = value.user.userName
+						messageConversation.fullName = value.user.fullName
+						messageConversation.picture = value.user.picture
+						messageConversation.message = value.message
+						messageConversation.created = value.created
+						messageArray.push(messageConversation);
+
+					});
+					console.log(messageArray,"messageArray");
+					const conversation: Conversation ={
+						conversationId:result[0].id,
+						recipientName:result[0].user_conversation_toUserTouser?.fullName,
+						recipientPicture:result[0].user_conversation_toUserTouser?.picture,
+						recipientUserName:result[0].user_conversation_toUserTouser?.userName,
+						messages:messageArray
+					}
+					const iResponse: IResponse = {
+						statusCode:"200",
+						message:"Fetch conversation successfully",
+						data: conversation,
+						error:""
+					}
+					return iResponse;
+				}
+				
+			}else{
 				const iResponse: IResponse = {
-					statusCode:"201",
-					message:"Message Send successfully",
-					data: result,
+					statusCode:"400",
+					message:"User Name not found",
+					data: req.body.userName,
 					error:""
 				}
 				return iResponse;
@@ -252,7 +322,7 @@ export class UserRepository {
 			
 		} catch (error) {
 			console.error(error);
-			LoggerService.writeInfoLog("============ Error During  Create User ==============="+error.Data);
+			LoggerService.writeInfoLog("============ Get From User (VIP) conversation ==============="+error.Data);
 			const iResponse: IResponse = {
 				statusCode:"500",
 				message:"Something went worng",
@@ -263,5 +333,242 @@ export class UserRepository {
 		}finally{
 			async () => await prisma.$disconnect()
 		}	
-	}	
+	}
+	async getConversationByUserNameAndRecepientUserName(req: any) {
+		try {
+			let resultFindByFromUserName = await prisma.user.findMany({
+				where:{
+					userName:req.params.userName
+				}
+			})
+			if(resultFindByFromUserName != null){	
+				let resultFindRecipientUserName = await prisma.user.findMany({
+					where:{
+						userName:req.params.recipientUserName
+					}
+				})
+				if(resultFindRecipientUserName){
+					const result = await prisma.conversation.findMany({
+						where:{
+							AND:[
+								{
+									fromUser:resultFindRecipientUserName[0].id
+								},
+								{
+									toUser:resultFindByFromUserName[0].id
+								},
+							]
+						},
+						select:{
+							id:true,
+							user_conversation_toUserTouser:{
+								select:{
+									id:true,
+									userName:true,
+									fullName:true,
+									picture:true
+								}
+							},
+							message:{
+								select:{
+									conversationId:true,
+									id:true,
+									message:true,
+									created:true,
+									user:{
+										select:{
+											id:true,
+											fullName:true,
+											userName:true,
+											picture:true,
+										}
+									}
+									
+								}
+							}
+						}
+					});
+					
+					if(result.length > 0){
+					
+						// let messageArray = [] as  any;
+						// result[0].message.forEach(function(value:any) {
+						// 	let messageConversation = {
+						// 		messageId:"",
+						// 		userName:"",
+						// 		fullName:"",
+						// 		picture:"",
+						// 		message:"",
+						// 		created:"",
+						// 	};
+						// 	console.log("Message:-- ",value)
+						// 	messageConversation.messageId = value.id
+						// 	messageConversation.userName = value.user.userName
+						// 	messageConversation.fullName = value.user.fullName
+						// 	messageConversation.picture = value.user.picture
+						// 	messageConversation.message = value.message
+						// 	messageConversation.created = value.created
+						// 	messageArray.push(messageConversation);
+	
+						// });
+						// console.log(messageArray,"messageArray");
+						// const conversation: Conversation ={
+						// 	conversationId:result[0].id,
+						// 	recipientName:result[0].user_conversation_toUserTouser?.fullName,
+						// 	recipientPicture:result[0].user_conversation_toUserTouser?.picture,
+						// 	recipientUserName:result[0].user_conversation_toUserTouser?.userName,
+						// 	messages:messageArray
+						// }
+						const iResponse: IResponse = {
+							statusCode:"200",
+							message:"Fetch conversation successfully",
+							data: result,
+							error:""
+						}
+						return iResponse;
+					}
+				}else{
+					const iResponse: IResponse = {
+						statusCode:"200",
+						message:"Receipent UserName not Found",
+						data: req.params.recipientUserName,
+						error:""
+					}
+					return iResponse;
+				}
+				
+			}else{
+				const iResponse: IResponse = {
+					statusCode:"400",
+					message:"User Name not found",
+					data: req.params.userName,
+					error:""
+				}
+				return iResponse;
+			}
+			
+		} catch (error) {
+			console.error(error);
+			LoggerService.writeInfoLog("============ Get From User (VIP) conversation ==============="+error.Data);
+			const iResponse: IResponse = {
+				statusCode:"500",
+				message:"Something went worng",
+				data:"",
+				error:error
+			}
+			return iResponse;
+		}finally{
+			async () => await prisma.$disconnect()
+		}	
+	}
+	async getConversationByRecepientUserName(req: any) {
+		try {
+				
+				let resultFindRecipientUserName = await prisma.user.findMany({
+					where:{
+						userName:req.params.userName
+					}
+				})
+				if(resultFindRecipientUserName){
+					const result = await prisma.conversation.findMany({
+						where:{
+							toUser:resultFindRecipientUserName[0].id
+						},
+						select:{
+							id:true,
+							user_conversation_toUserTouser:{
+								select:{
+									id:true,
+									userName:true,
+									fullName:true,
+									picture:true
+								}
+							},
+							message:{
+								skip: 1,
+  								take: 1,
+								select:{
+									conversationId:true,
+									id:true,
+									message:true,
+									created:true,
+									user:{
+										select:{
+											id:true,
+											fullName:true,
+											userName:true,
+											picture:true,
+										}
+									}
+								},
+								orderBy: {
+									id: 'desc'
+								}
+							}
+						}
+					});
+					
+					if(result != null){
+					
+						let messageArray = [] as  any;
+						result.forEach(function(value:any) {
+							console.log("Value",value);
+							let messageConversation = {
+								userName:"",
+								fullName:"",
+								picture:"",
+								lastMessage:"",
+								created:"",
+							};
+							if(value.message.length > 0){
+								messageConversation.userName = value.message[0].user.userName
+								messageConversation.fullName = value.message[0].user.fullName
+								messageConversation.picture = value.message[0].user.picture
+								messageConversation.lastMessage = value.message[0].message
+								messageConversation.created = value.message[0].created
+								messageArray.push(messageConversation);
+							}
+							
+	
+						});
+						console.log(messageArray,"messageArray");
+						const conversation: Conversation ={
+							conversationId:result[0].id,
+							recipientName:result[0].user_conversation_toUserTouser?.fullName,
+							recipientPicture:result[0].user_conversation_toUserTouser?.picture,
+							recipientUserName:result[0].user_conversation_toUserTouser?.userName,
+							messages:messageArray
+						}
+						const iResponse: IResponse = {
+							statusCode:"200",
+							message:"Fetch conversation successfully",
+							data: conversation,
+							error:""
+						}
+						return iResponse;
+					}
+				}else{
+					const iResponse: IResponse = {
+						statusCode:"200",
+						message:"Receipent UserName not Found",
+						data: req.params.recipientUserName,
+						error:""
+					}
+					return iResponse;
+				}
+			
+		} catch (error) {
+			console.error(error);
+			LoggerService.writeInfoLog("============ Get From User (VIP) conversation ==============="+error.Data);
+			const iResponse: IResponse = {
+				statusCode:"500",
+				message:"Something went worng",
+				data:"",
+				error:error
+			}
+			return iResponse;
+		}finally{
+			async () => await prisma.$disconnect()
+		}	
+	}
 }
