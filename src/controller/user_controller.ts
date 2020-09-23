@@ -23,8 +23,8 @@ class UserController {
         this.router.post(this.pathCompose,cors(), this.composeMessage);
         this.router.post(this.pathReply,cors(), this.replyMessage);
         this.router.get(this.pathConversationUserName,cors(), this.getConversationMessage);
-        this.router.get(this.pathConversationUserNameAndRecipientUserName,cors(), this.getConversatonUsierNameAndRecipientUserName);
-        this.router.get(this.pathRecipient,cors(), this.getRecipient);
+        this.router.get(this.pathConversationUserNameAndRecipientUserName,cors(), this.getConversatonByUserNameAndRecipientUserName);
+        this.router.get(this.pathRecipient,cors(), this.getRecipients);
     }
     createUser = async (request: express.Request, response: express.Response) => {
         LoggerService.writeInfoLog("============ CREATE USER ==============="+request.body);
@@ -46,14 +46,14 @@ class UserController {
         const result = await this.userRepository.getConversationByUserName(request)
         response.send(result);
     }
-    getConversatonUsierNameAndRecipientUserName = async (request: express.Request, response: express.Response) => {
+    getConversatonByUserNameAndRecipientUserName = async (request: express.Request, response: express.Response) => {
         LoggerService.writeInfoLog("============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ==============="+request.body);
         const result = await this.userRepository.getConversationByUserNameAndRecepientUserName(request)
         response.send(result);
     }
-    getRecipient = async (request: express.Request, response: express.Response) => {
-        LoggerService.writeInfoLog("============ GET RECIPIENT LIST ==============="+request.body);
-        const result = await this.userRepository.getConversationByRecepientUserName(request)
+    getRecipients = async (request: express.Request, response: express.Response) => {
+        LoggerService.writeInfoLog("============ GET RECIPIENTS LIST ==============="+request.body);
+        const result = await this.userRepository.getRecepientList(request)
         response.send(result);
     }
 }

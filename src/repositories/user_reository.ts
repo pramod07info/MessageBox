@@ -461,7 +461,7 @@ export class UserRepository {
 			async () => await prisma.$disconnect()
 		}	
 	}
-	async getConversationByRecepientUserName(req: any) {
+	async getRecepientList(req: any) {
 		try {
 				
 				let resultFindRecipientUserName = await prisma.user.findMany({
@@ -507,8 +507,9 @@ export class UserRepository {
 							}
 						}
 					});
+
 					
-					if(result != null){
+					if(result.length > 0){
 					
 						let messageArray = [] as  any;
 						result.forEach(function(value:any) {
@@ -546,10 +547,18 @@ export class UserRepository {
 							error:""
 						}
 						return iResponse;
+					}else{
+						const iResponse: IResponse = {
+							statusCode:"204",
+							message:"Receipents not Found",
+							data: [],
+							error:""
+						}
+						return iResponse;
 					}
 				}else{
 					const iResponse: IResponse = {
-						statusCode:"200",
+						statusCode:"204",
 						message:"Receipent UserName not Found",
 						data: req.params.recipientUserName,
 						error:""
