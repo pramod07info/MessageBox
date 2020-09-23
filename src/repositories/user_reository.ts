@@ -212,7 +212,7 @@ export class UserRepository {
 			}else{
 				const iResponse: IResponse = {
 					statusCode:"409",
-					message:"User Name Already exist",
+					message:"User Name not exist",
 					data: req.body.userName,
 					error:""
 				}
@@ -513,6 +513,9 @@ export class UserRepository {
 									id: 'desc'
 								}
 							}
+						},
+						orderBy: {
+							id: 'desc'
 						}
 					});
 
