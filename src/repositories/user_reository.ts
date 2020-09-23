@@ -4,6 +4,7 @@ import LoggerService from '../logger/LoggerService';
 import {IResponse} from '../model/index';
 import {Conversation} from '../dto/conversation';
 import { stringify } from 'querystring';
+import { Recipients } from '../dto/recipients';
 
 const prisma = new PrismaClient({
 	errorFormat: 'minimal',
@@ -361,7 +362,7 @@ export class UserRepository {
 						},
 						select:{
 							id:true,
-							user_conversation_toUserTouser:{
+							user_conversation_fromUserTouser:{
 								select:{
 									id:true,
 									userName:true,
@@ -391,38 +392,38 @@ export class UserRepository {
 					
 					if(result.length > 0){
 					
-						// let messageArray = [] as  any;
-						// result[0].message.forEach(function(value:any) {
-						// 	let messageConversation = {
-						// 		messageId:"",
-						// 		userName:"",
-						// 		fullName:"",
-						// 		picture:"",
-						// 		message:"",
-						// 		created:"",
-						// 	};
-						// 	console.log("Message:-- ",value)
-						// 	messageConversation.messageId = value.id
-						// 	messageConversation.userName = value.user.userName
-						// 	messageConversation.fullName = value.user.fullName
-						// 	messageConversation.picture = value.user.picture
-						// 	messageConversation.message = value.message
-						// 	messageConversation.created = value.created
-						// 	messageArray.push(messageConversation);
+						let messageArray = [] as  any;
+						result[0].message.forEach(function(value:any) {
+							let messageConversation = {
+								messageId:"",
+								userName:"",
+								fullName:"",
+								picture:"",
+								message:"",
+								created:"",
+							};
+							console.log("Message:-- ",value)
+							messageConversation.messageId = value.id
+							messageConversation.userName = value.user.userName
+							messageConversation.fullName = value.user.fullName
+							messageConversation.picture = value.user.picture
+							messageConversation.message = value.message
+							messageConversation.created = value.created
+							messageArray.push(messageConversation);
 	
-						// });
-						// console.log(messageArray,"messageArray");
-						// const conversation: Conversation ={
-						// 	conversationId:result[0].id,
-						// 	recipientName:result[0].user_conversation_toUserTouser?.fullName,
-						// 	recipientPicture:result[0].user_conversation_toUserTouser?.picture,
-						// 	recipientUserName:result[0].user_conversation_toUserTouser?.userName,
-						// 	messages:messageArray
-						// }
+						});
+						console.log(messageArray,"messageArray");
+						const conversation: Conversation ={
+							conversationId:result[0].id,
+							recipientName:result[0].user_conversation_fromUserTouser?.fullName,
+							recipientPicture:result[0].user_conversation_fromUserTouser?.picture,
+							recipientUserName:result[0].user_conversation_fromUserTouser?.userName,
+							messages:messageArray
+						}
 						const iResponse: IResponse = {
 							statusCode:"200",
 							message:"Fetch conversation successfully",
-							data: result,
+							data: conversation,
 							error:""
 						}
 						return iResponse;
@@ -475,7 +476,6 @@ export class UserRepository {
 							toUser:resultFindRecipientUserName[0].id
 						},
 						select:{
-							id:true,
 							user_conversation_toUserTouser:{
 								select:{
 									id:true,
@@ -485,7 +485,7 @@ export class UserRepository {
 								}
 							},
 							message:{
-								skip: 1,
+								skip: 0,
   								take: 1,
 								select:{
 									conversationId:true,
@@ -533,17 +533,16 @@ export class UserRepository {
 	
 						});
 						console.log(messageArray,"messageArray");
-						const conversation: Conversation ={
-							conversationId:result[0].id,
-							recipientName:result[0].user_conversation_toUserTouser?.fullName,
-							recipientPicture:result[0].user_conversation_toUserTouser?.picture,
-							recipientUserName:result[0].user_conversation_toUserTouser?.userName,
-							messages:messageArray
+						const recipients: Recipients ={
+							name:result[0].user_conversation_toUserTouser?.fullName,
+							picture:result[0].user_conversation_toUserTouser?.picture,
+							userName:result[0].user_conversation_toUserTouser?.userName,
+							recipients:messageArray
 						}
 						const iResponse: IResponse = {
 							statusCode:"200",
 							message:"Fetch Receipents List Successfully",
-							data: conversation,
+							data: recipients,
 							error:""
 						}
 						return iResponse;

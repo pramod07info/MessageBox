@@ -1,5 +1,5 @@
 export interface Conversation{
-    conversationId: number;
+    conversationId?: number;
     recipientName: any;
     recipientPicture: any;
     recipientUserName: any;
