@@ -6,9 +6,9 @@ import cors from 'cors';
 import  LoggerService   from '../logger/LoggerService'
 class UserController {
     private userRepository = new UserRepository();
-    public path = '/user';
+    public path = '/register';
     public pathCompose = '/compose';
-    public pathMessage = '/message';
+    public pathReply = '/reply';
     public pathConversationUserName = '/conversation/:userName';
     public pathConversationUserNameAndRecipientUserName = '/conversation/:userName/:recipientUserName';
     public pathRecipient = '/recipient/:userName';
@@ -21,39 +21,39 @@ class UserController {
     public intializeRoutes() {
         this.router.post(this.path,cors(), this.createUser);
         this.router.post(this.pathCompose,cors(), this.composeMessage);
-        this.router.post(this.pathMessage,cors(), this.createMessage);
+        this.router.post(this.pathReply,cors(), this.replyMessage);
         this.router.get(this.pathConversationUserName,cors(), this.getConversationMessage);
-        this.router.get(this.pathConversationUserNameAndRecipientUserName,cors(), this.getConversatonUsierNameAndRecipientUserName);
-        this.router.get(this.pathRecipient,cors(), this.getRecipient);
+        this.router.get(this.pathConversationUserNameAndRecipientUserName,cors(), this.getConversatonByUserNameAndRecipientUserName);
+        this.router.get(this.pathRecipient,cors(), this.getRecipients);
     }
     createUser = async (request: express.Request, response: express.Response) => {
-        LoggerService.writeInfoLog("============ Request For Create Feed back==============="+request.body);
+        LoggerService.writeInfoLog("============ CREATE USER ==============="+request.body);
         const result = await this.userRepository.createUser(request)
         response.send(result);
     }
     composeMessage = async (request: express.Request, response: express.Response) => {
-        LoggerService.writeInfoLog("============ Request For Create Feed back==============="+request.body);
+        LoggerService.writeInfoLog("============ COMPOSE MESSAGE ==============="+request.body);
         const result = await this.userRepository.compose(request)
         response.send(result);
     }
-    createMessage = async (request: express.Request, response: express.Response) => {
-        LoggerService.writeInfoLog("============ Request For Create Feed back==============="+request.body);
-        const result = await this.userRepository.createMessage(request)
+    replyMessage = async (request: express.Request, response: express.Response) => {
+        LoggerService.writeInfoLog("============ REPLY MESSAGE ==============="+request.body);
+        const result = await this.userRepository.replyMessage(request)
         response.send(result);
     }
     getConversationMessage = async (request: express.Request, response: express.Response) => {
-        LoggerService.writeInfoLog("============ Request For Create Feed back==============="+request.body);
+        LoggerService.writeInfoLog("============ GET CONVERSATION BY USERNAME ==============="+request.body);
         const result = await this.userRepository.getConversationByUserName(request)
         response.send(result);
     }
-    getConversatonUsierNameAndRecipientUserName = async (request: express.Request, response: express.Response) => {
-        LoggerService.writeInfoLog("============ Request For Create Feed back==============="+request.body);
+    getConversatonByUserNameAndRecipientUserName = async (request: express.Request, response: express.Response) => {
+        LoggerService.writeInfoLog("============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ==============="+request.body);
         const result = await this.userRepository.getConversationByUserNameAndRecepientUserName(request)
         response.send(result);
     }
-    getRecipient = async (request: express.Request, response: express.Response) => {
-        LoggerService.writeInfoLog("============ Request For Create Feed back==============="+request.body);
-        const result = await this.userRepository.getConversationByRecepientUserName(request)
+    getRecipients = async (request: express.Request, response: express.Response) => {
+        LoggerService.writeInfoLog("============ GET RECIPIENTS LIST ==============="+request.body);
+        const result = await this.userRepository.getRecepientList(request)
         response.send(result);
     }
 }

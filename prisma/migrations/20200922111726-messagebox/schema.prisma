@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url = "***"
 }
 
 model conversation {
@@ -31,7 +31,7 @@ model user {
   id                                       Int            @default(autoincrement()) @id
   userName                                 String         @unique
   fullName                                 String
-  email                                    String?
+  email                                    String
   picture                                  String
   role                                     String
   created                                  DateTime       @default(now())
