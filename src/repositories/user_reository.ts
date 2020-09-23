@@ -579,4 +579,56 @@ export class UserRepository {
 			async () => await prisma.$disconnect()
 		}	
 	}
+	async getSearchData(req: any) {
+		try {	
+			const searchResult = await prisma.user.findMany({
+				where:{
+					OR:[
+						{
+							userName:{
+								startsWith:req.params.search
+							}
+						},
+						{
+							fullName:{
+								startsWith:req.params.search
+							}
+						}
+					]
+				},
+				select:{
+					userName:true,
+					fullName:true,
+					picture:true
+				}
+			})
+			if(searchResult.length > 0){
+				const iResponse: IResponse = {
+					statusCode:"200",
+					message:"Search Data successfully",
+					data:searchResult,
+				}
+				return iResponse;					
+			}else{
+				const iResponse: IResponse = {
+					statusCode:"500",
+					message:"NO Search Data successfully",
+					data:searchResult,
+				}
+				return iResponse;
+			}
+		} catch (error) {
+			console.error(error);
+			LoggerService.writeInfoLog("============ Get From User (VIP) conversation ==============="+error.Data);
+			const iResponse: IResponse = {
+				statusCode:"500",
+				message:"Something went worng",
+				data:"",
+				error:error
+			}
+			return iResponse;
+		}finally{
+			async () => await prisma.$disconnect()
+		}	
+	}
 }
