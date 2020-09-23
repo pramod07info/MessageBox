@@ -271,7 +271,7 @@ export class UserRepository {
 						}
 					}
 				});
-				if(result != null){
+				if(result.length > 0){
 					
 					let messageArray = [] as  any;
 					result[0].message.forEach(function(value:any) {
@@ -305,6 +305,14 @@ export class UserRepository {
 						statusCode:"200",
 						message:"Fetch conversation successfully",
 						data: conversation,
+						error:""
+					}
+					return iResponse;
+				}else{
+					const iResponse: IResponse = {
+						statusCode:"204",
+						message:"No Data Found",
+						data: [],
 						error:""
 					}
 					return iResponse;
