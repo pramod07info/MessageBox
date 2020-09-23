@@ -542,7 +542,7 @@ export class UserRepository {
 						}
 						const iResponse: IResponse = {
 							statusCode:"200",
-							message:"Fetch conversation successfully",
+							message:"Fetch Receipents List Successfully",
 							data: conversation,
 							error:""
 						}
