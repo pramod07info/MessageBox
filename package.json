@@ -4,7 +4,7 @@
   "description": "Conversation Api",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -x ts-node src/server.ts",
+    "dev": "npx nodemon -x ts-node src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx ts-node src/server.ts"
   },
