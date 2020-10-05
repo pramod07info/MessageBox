@@ -484,6 +484,14 @@ export class UserRepository {
 									picture:true
 								}
 							},
+							user_conversation_fromUserTouser:{
+								select:{
+									id:true,
+									userName:true,
+									fullName:true,
+									picture:true
+								}
+							},
 							message:{
 								skip: 0,
   								take: 1,
@@ -492,14 +500,6 @@ export class UserRepository {
 									id:true,
 									message:true,
 									created:true,
-									user:{
-										select:{
-											id:true,
-											fullName:true,
-											userName:true,
-											picture:true,
-										}
-									}
 								},
 								orderBy: {
 									id: 'desc'
@@ -522,9 +522,9 @@ export class UserRepository {
 								created:"",
 							};
 							if(value.message.length > 0){
-								messageConversation.userName = value.message[0].user.userName
-								messageConversation.fullName = value.message[0].user.fullName
-								messageConversation.picture = value.message[0].user.picture
+								messageConversation.userName = value.user_conversation_fromUserTouser.userName
+								messageConversation.fullName = value.user_conversation_fromUserTouser.fullName
+								messageConversation.picture = value.user_conversation_fromUserTouser.picture
 								messageConversation.lastMessage = value.message[0].message
 								messageConversation.created = value.message[0].created
 								messageArray.push(messageConversation);
