@@ -212,7 +212,7 @@ export class UserRepository {
 			}else{
 				const iResponse: IResponse = {
 					statusCode:"409",
-					message:"User Name Already exist",
+					message:"User Name not exist",
 					data: req.body.userName,
 					error:""
 				}
@@ -272,7 +272,7 @@ export class UserRepository {
 						}
 					}
 				});
-				if(result != null){
+				if(result.length > 0){
 					
 					let messageArray = [] as  any;
 					result[0].message.forEach(function(value:any) {
@@ -306,6 +306,14 @@ export class UserRepository {
 						statusCode:"200",
 						message:"Fetch conversation successfully",
 						data: conversation,
+						error:""
+					}
+					return iResponse;
+				}else{
+					const iResponse: IResponse = {
+						statusCode:"204",
+						message:"No Data Found",
+						data: [],
 						error:""
 					}
 					return iResponse;
@@ -499,12 +507,15 @@ export class UserRepository {
 									conversationId:true,
 									id:true,
 									message:true,
-									created:true,
+									created:true
 								},
 								orderBy: {
 									id: 'desc'
 								}
 							}
+						},
+						orderBy: {
+							id: 'desc'
 						}
 					});
 
