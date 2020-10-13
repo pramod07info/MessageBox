@@ -22,7 +22,7 @@ model message {
   conversationId Int
   message        String
   userId         Int?
-  created        DateTime?
+  created        DateTime?    @default(now())
   conversation   conversation @relation(fields: [conversationId], references: [id])
   user           user?        @relation(fields: [userId], references: [id])
 }

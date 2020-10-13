@@ -5,7 +5,15 @@ import {IResponse} from '../model/index';
 import {Conversation} from '../dto/conversation';
 import { stringify } from 'querystring';
 import { Recipients } from '../dto/recipients';
+var Pusher = require('pusher');
 
+var pusher = new Pusher({
+  appId: '1088773',
+  key: 'b32abed38bb3bd57644c',
+  secret: '7d0c731c8f308a1d57ae',
+  cluster: 'eu',
+  encrypted: true
+});
 const prisma = new PrismaClient({
 	errorFormat: 'minimal',
 	log: [
@@ -114,6 +122,7 @@ export class UserRepository {
 						}
 						
 					})
+					
 					const iResponse: IResponse = {
 						statusCode:"201",
 						message:"Message Send successfully",
@@ -202,6 +211,17 @@ export class UserRepository {
 						}
 					}
 				});
+				const pusherMessage = {
+					messageId: result.id,
+					userName: resultFindByUserName.userName,
+					fullName: resultFindByUserName.fullName,
+					picture: resultFindByUserName.picture,
+					message: result.message,
+					created: result.created
+				}
+				pusher.trigger('sfd-vip-channel', 'conversation-'+result.conversationId, {
+					'message': pusherMessage
+				})
 				const iResponse: IResponse = {
 					statusCode:"201",
 					message:"Message Send successfully",
