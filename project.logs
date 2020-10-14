@@ -887,3 +887,28 @@
 {"timeStamp":"10/12/2020, 11:46:03 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
 {"timeStamp":"10/12/2020, 11:46:03 PM","message":"============ User Details ===============undefined","level":"info"}
 {"timeStamp":"10/12/2020, 11:46:03 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/14/2020, 10:26:22 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/14/2020, 10:26:22 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/14/2020, 10:26:22 AM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/14/2020, 10:26:22 AM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/14/2020, 10:26:23 AM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/14/2020, 10:26:23 AM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/14/2020, 10:26:39 AM","message":"============ COMPOSE MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/14/2020, 10:26:39 AM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/14/2020, 10:26:39 AM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/14/2020, 10:29:11 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/14/2020, 10:29:11 AM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/14/2020, 10:29:11 AM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/14/2020, 10:29:11 AM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/14/2020, 10:29:11 AM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/14/2020, 10:29:11 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/14/2020, 10:29:11 AM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/14/2020, 10:29:11 AM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/14/2020, 10:29:35 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/14/2020, 10:29:35 AM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/14/2020, 10:29:35 AM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/14/2020, 10:29:35 AM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/14/2020, 10:29:35 AM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/14/2020, 10:29:35 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/14/2020, 10:29:35 AM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/14/2020, 10:29:35 AM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
