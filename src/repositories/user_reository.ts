@@ -213,6 +213,18 @@ export class UserRepository {
 						}
 					}
 				});
+				const pusherMessage = {
+					messageId: result.id,
+					userName: resultFindByUserName.userName,
+					fullName: resultFindByUserName.fullName,
+					picture: resultFindByUserName.picture,
+					message: result.message,
+					created: result.created
+				}
+				pusher.trigger('sfd-vip-channel', 'conversation-'+result.conversationId, {
+					'message': pusherMessage
+				})
+				
 				const iResponse: IResponse = {
 					statusCode: "201",
 					message: "Message Send successfully",
