@@ -8,7 +8,7 @@ datasource db {
 }
 
 model conversation {
-  id                               Int       @default(autoincrement()) @id
+  id                               Int       @id @default(autoincrement())
   fromUser                         Int?
   toUser                           Int?
   created                          DateTime?
@@ -18,7 +18,7 @@ model conversation {
 }
 
 model message {
-  id             Int          @default(autoincrement()) @id
+  id             Int          @id @default(autoincrement())
   conversationId Int
   message        String
   userId         Int?
@@ -28,7 +28,7 @@ model message {
 }
 
 model user {
-  id                                       Int            @default(autoincrement()) @id
+  id                                       Int            @id @default(autoincrement())
   userName                                 String         @unique
   fullName                                 String
   email                                    String?

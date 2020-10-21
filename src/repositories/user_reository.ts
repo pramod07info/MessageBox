@@ -8,9 +8,9 @@ import { Recipients } from '../dto/recipients';
 var Pusher = require('pusher');
 
 var pusher = new Pusher({
-  appId: '1088773',
-  key: 'b32abed38bb3bd57644c',
-  secret: '7d0c731c8f308a1d57ae',
+  appId: '1091454',
+  key: '21d9d6c8f9952176e08b',
+  secret: 'cf8df3149b3ce11c686f',
   cluster: 'eu',
   encrypted: true
 });
@@ -23,9 +23,9 @@ const prisma = new PrismaClient({
 		},
 	  ],
   })
-  prisma.$on('query', e => {
-	e.query,LoggerService.writeErrorLog(e.query);
-  })
+//   prisma.$on('query', e => {
+// 	e.query,LoggerService.writeErrorLog(e.query);
+//   })
 
 export class UserRepository {
 	async createUser(req: any) {
@@ -41,6 +41,84 @@ export class UserRepository {
 				const result = await prisma.user.create({
 					data: req.body
 				})
+				if(result.id > 0 && result.role.match("VIP")){
+					const resultSysAdmin = await prisma.user.findMany({
+						where:{
+							role:"SYSADMIN"
+						}
+					})
+					if(resultSysAdmin.length > 0){
+						const resultConversation = await prisma.conversation.create({
+							data:{
+								user_conversation_fromUserTouser:{
+									connect:{
+										id:result.id
+									}
+								},	
+								user_conversation_toUserTouser:{
+									connect:{
+										id:resultSysAdmin[0].id
+									}
+								},
+								message:{
+									create:{
+										message:"Welcome to SO.FA.DOG",
+										user:{
+											connect:{
+												id:result.id
+											}
+										}
+									}
+								}
+							}
+							
+						})
+						const conversation: Conversation ={
+							conversationId:resultConversation.id,
+							recipientName:resultSysAdmin[0].fullName,
+							recipientPicture:resultSysAdmin[0].picture,
+							recipientUserName:resultSysAdmin[0].userName,
+							messages:"Welcome to SO.FA.DOG",
+						}
+						pusher.trigger('sfd-vip-channel', 'conversation-'+resultConversation.id, {
+							'message': conversation
+						})
+						// const recipient: Recipients ={
+						// 	name:result.fullName,
+						// 	picture:result.picture,
+						// 	userName:result.userName,
+						// 	recipients:"Welcome to SO.FA.DOG"
+						// }
+						let recipient = {
+							userName:result.userName,
+							fullName:result.fullName,
+							picture:result.picture,
+							lastMessage:"Welcome to SO.FA.DOG",
+							created:result.created,
+						};
+
+						pusher.trigger('sfd-vip-channel', 'recipientsList', {
+							'recipient': recipient
+						})
+						console.log("recipients List ",recipient);
+						const iResponse: IResponse = {
+							statusCode:"201",
+							message:"Data created successfully",
+							data: conversation,
+							error:""
+						}
+						return iResponse;
+					}else{
+						const iResponse: IResponse = {
+							statusCode:"200",
+							message:"SYSADMIN not found ,kindly create first SYSADMIN",
+							data: result,
+							error:""
+						}
+						return iResponse;		
+					}
+					
+				}
 				const iResponse: IResponse = {
 					statusCode:"201",
 					message:"Data created successfully",

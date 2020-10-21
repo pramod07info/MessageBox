@@ -912,3 +912,498 @@
 {"timeStamp":"10/14/2020, 10:29:35 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
 {"timeStamp":"10/14/2020, 10:29:35 AM","message":"SELECT 1","level":"error"}
 {"timeStamp":"10/14/2020, 10:29:35 AM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:46:20 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:20 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:23 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:46:23 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:24 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 10:46:24 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:37 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:37 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:37 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:46:37 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:37 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 10:46:37 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:54 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:54 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:55 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 10:46:55 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:46:55 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:55 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 10:46:55 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 10:46:55 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:56 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:56 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:56 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:46:56 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:56 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 10:46:57 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:58 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:58 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:58 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:46:58 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:46:58 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 10:46:58 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:13 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:13 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:13 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:13 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:13 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:13 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:13 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:13 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:16 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:16 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:16 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:16 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:17 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:17 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:19 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:19 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:20 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:20 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:20 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:20 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:22 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:22 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:22 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:22 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:22 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:22 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:57 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:57 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:57 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:57 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:57 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:47:57 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:57 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:47:57 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:04 PM","message":"============ COMPOSE MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:04 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:04 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:21 PM","message":"============ COMPOSE MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:21 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:21 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:21 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:24 PM","message":"============ COMPOSE MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:24 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:24 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:24 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:24 PM","message":"============ COMPOSE MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:24 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:24 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:24 PM","message":"============ COMPOSE MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:25 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:25 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:25 PM","message":"============ COMPOSE MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:25 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:25 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:31 PM","message":"============ COMPOSE MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:31 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:31 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:31 PM","message":"============ COMPOSE MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:32 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:32 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:36 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:36 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:36 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:37 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:37 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:37 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:37 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:49 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:49 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:49 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:50 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:50 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:50 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:50 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:51 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:51 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:52 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:52 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:52 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:48:52 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 10:48:52 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:49:03 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:49:03 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:49:03 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:49:03 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:49:03 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:49:03 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:59:14 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:59:14 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 10:59:15 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:59:15 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 10:59:15 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 10:59:15 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:01:01 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:01:01 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:01:01 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:01:02 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:01:02 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:01:02 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:01:02 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:01:27 PM","message":"============ COMPOSE MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:01:27 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:01:27 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:01:27 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:01:41 PM","message":"============ COMPOSE MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:01:41 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:01:41 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:16:13 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:16:13 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:16:14 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:16:14 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:16:14 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:16:15 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:17:20 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:17:20 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:17:20 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:17:20 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:17:20 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:17:21 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:17:21 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:22:58 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:22:59 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:22:59 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:25:51 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:25:51 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:25:51 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:25:51 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:25:57 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:25:58 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:25:58 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:25:59 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:25:59 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:25:59 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:26:14 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:26:14 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:26:15 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:26:15 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:27:38 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:27:38 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:27:38 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:27:38 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:27:59 PM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:28:00 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:28:00 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:28:00 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:28:00 PM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:31:02 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:31:03 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:31:03 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:31:03 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:53:25 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:53:26 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:53:26 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:53:26 PM","message":"BEGIN","level":"error"}
+{"timeStamp":"10/20/2020, 11:53:26 PM","message":"INSERT INTO \"public\".\"user\" (\"userName\",\"fullName\",\"picture\",\"role\",\"created\") VALUES ($1,$2,$3,$4,$5) RETURNING \"public\".\"user\".\"id\"","level":"error"}
+{"timeStamp":"10/20/2020, 11:53:26 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:53:26 PM","message":"COMMIT","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:05 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:54:05 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:54:05 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:05 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:05 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/20/2020, 11:54:05 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:05 PM","message":"SELECT \"public\".\"conversation\".\"id\", \"public\".\"conversation\".\"toUser\", \"public\".\"conversation\".\"fromUser\" FROM \"public\".\"conversation\" WHERE \"public\".\"conversation\".\"toUser\" = $1 ORDER BY \"public\".\"conversation\".\"id\" DESC OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:16 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:54:16 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:54:16 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:16 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/20/2020, 11:54:16 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:16 PM","message":"SELECT \"public\".\"conversation\".\"id\", \"public\".\"conversation\".\"toUser\", \"public\".\"conversation\".\"fromUser\" FROM \"public\".\"conversation\" WHERE \"public\".\"conversation\".\"toUser\" = $1 ORDER BY \"public\".\"conversation\".\"id\" DESC OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"BEGIN","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"INSERT INTO \"public\".\"user\" (\"userName\",\"fullName\",\"picture\",\"role\",\"created\") VALUES ($1,$2,$3,$4,$5) RETURNING \"public\".\"user\".\"id\"","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"COMMIT","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"role\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"BEGIN","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"SELECT \"public\".\"user\".\"id\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"SELECT \"public\".\"user\".\"id\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"INSERT INTO \"public\".\"conversation\" (\"fromUser\",\"toUser\") VALUES ($1,$2) RETURNING \"public\".\"conversation\".\"id\"","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"SELECT \"public\".\"user\".\"id\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"INSERT INTO \"public\".\"message\" (\"conversationId\",\"message\",\"userId\",\"created\") VALUES ($1,$2,$3,$4) RETURNING \"public\".\"message\".\"id\"","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"SELECT \"public\".\"conversation\".\"id\", \"public\".\"conversation\".\"fromUser\", \"public\".\"conversation\".\"toUser\", \"public\".\"conversation\".\"created\" FROM \"public\".\"conversation\" WHERE \"public\".\"conversation\".\"id\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:54:44 PM","message":"COMMIT","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:03 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:55:03 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:55:03 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:03 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:03 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:03 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/20/2020, 11:55:03 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:03 PM","message":"SELECT \"public\".\"conversation\".\"id\", \"public\".\"conversation\".\"toUser\", \"public\".\"conversation\".\"fromUser\" FROM \"public\".\"conversation\" WHERE \"public\".\"conversation\".\"toUser\" = $1 ORDER BY \"public\".\"conversation\".\"id\" DESC OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:03 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"picture\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" IN ($1) OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:03 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"picture\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" IN ($1) OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:03 PM","message":"SELECT \"public\".\"message\".\"id\", \"public\".\"message\".\"conversationId\", \"public\".\"message\".\"message\", \"public\".\"message\".\"created\" FROM \"public\".\"message\" WHERE \"public\".\"message\".\"conversationId\" IN ($1) ORDER BY \"public\".\"message\".\"id\" DESC OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:47 PM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:55:47 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:47 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:47 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:47 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:47 PM","message":"SELECT \"public\".\"conversation\".\"id\", \"public\".\"conversation\".\"fromUser\" FROM \"public\".\"conversation\" WHERE (\"public\".\"conversation\".\"fromUser\" = $1 AND \"public\".\"conversation\".\"toUser\" = $2) OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:47 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"picture\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" IN ($1) OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:47 PM","message":"SELECT \"public\".\"message\".\"id\", \"public\".\"message\".\"conversationId\", \"public\".\"message\".\"message\", \"public\".\"message\".\"created\", \"public\".\"message\".\"userId\" FROM \"public\".\"message\" WHERE \"public\".\"message\".\"conversationId\" IN ($1) OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:55:47 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"picture\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" IN ($1) OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"BEGIN","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"SELECT \"public\".\"user\".\"id\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"SELECT \"public\".\"conversation\".\"id\" FROM \"public\".\"conversation\" WHERE \"public\".\"conversation\".\"id\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"INSERT INTO \"public\".\"message\" (\"conversationId\",\"message\",\"userId\",\"created\") VALUES ($1,$2,$3,$4) RETURNING \"public\".\"message\".\"id\"","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"SELECT \"public\".\"message\".\"id\", \"public\".\"message\".\"conversationId\", \"public\".\"message\".\"message\", \"public\".\"message\".\"userId\", \"public\".\"message\".\"created\" FROM \"public\".\"message\" WHERE \"public\".\"message\".\"id\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"COMMIT","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"SELECT \"public\".\"conversation\".\"id\", \"public\".\"conversation\".\"fromUser\" FROM \"public\".\"conversation\" WHERE (\"public\".\"conversation\".\"fromUser\" = $1 AND \"public\".\"conversation\".\"toUser\" = $2) OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"picture\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" IN ($1) OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"SELECT \"public\".\"message\".\"id\", \"public\".\"message\".\"conversationId\", \"public\".\"message\".\"message\", \"public\".\"message\".\"created\", \"public\".\"message\".\"userId\" FROM \"public\".\"message\" WHERE \"public\".\"message\".\"conversationId\" IN ($1) OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:00 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"picture\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" IN ($1,$2) OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:56 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:56:56 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:56:56 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:56 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:56 PM","message":"============ User Details ===============auth0|5f561d5ef83add00671b125f","level":"info"}
+{"timeStamp":"10/20/2020, 11:56:56 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:56 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:56 PM","message":"SELECT \"public\".\"conversation\".\"id\", \"public\".\"conversation\".\"toUser\" FROM \"public\".\"conversation\" WHERE \"public\".\"conversation\".\"fromUser\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:56 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"picture\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" IN ($1) OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:56 PM","message":"SELECT \"public\".\"message\".\"id\", \"public\".\"message\".\"conversationId\", \"public\".\"message\".\"message\", \"public\".\"message\".\"created\", \"public\".\"message\".\"userId\" FROM \"public\".\"message\" WHERE \"public\".\"message\".\"conversationId\" IN ($1) OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:56:56 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"picture\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" IN ($1,$2) OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"SELECT 1","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"BEGIN","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"SELECT \"public\".\"user\".\"id\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"SELECT \"public\".\"conversation\".\"id\" FROM \"public\".\"conversation\" WHERE \"public\".\"conversation\".\"id\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"INSERT INTO \"public\".\"message\" (\"conversationId\",\"message\",\"userId\",\"created\") VALUES ($1,$2,$3,$4) RETURNING \"public\".\"message\".\"id\"","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"SELECT \"public\".\"message\".\"id\", \"public\".\"message\".\"conversationId\", \"public\".\"message\".\"message\", \"public\".\"message\".\"userId\", \"public\".\"message\".\"created\" FROM \"public\".\"message\" WHERE \"public\".\"message\".\"id\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"COMMIT","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"email\", \"public\".\"user\".\"picture\", \"public\".\"user\".\"role\", \"public\".\"user\".\"created\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"userName\" = $1 LIMIT $2 OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"SELECT \"public\".\"conversation\".\"id\", \"public\".\"conversation\".\"toUser\" FROM \"public\".\"conversation\" WHERE \"public\".\"conversation\".\"fromUser\" = $1 OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"picture\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" IN ($1) OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"SELECT \"public\".\"message\".\"id\", \"public\".\"message\".\"conversationId\", \"public\".\"message\".\"message\", \"public\".\"message\".\"created\", \"public\".\"message\".\"userId\" FROM \"public\".\"message\" WHERE \"public\".\"message\".\"conversationId\" IN ($1) OFFSET $2","level":"error"}
+{"timeStamp":"10/20/2020, 11:57:31 PM","message":"SELECT \"public\".\"user\".\"id\", \"public\".\"user\".\"userName\", \"public\".\"user\".\"fullName\", \"public\".\"user\".\"picture\" FROM \"public\".\"user\" WHERE \"public\".\"user\".\"id\" IN ($1,$2) OFFSET $3","level":"error"}
+{"timeStamp":"10/20/2020, 11:59:23 PM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 12:01:24 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 12:01:24 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 12:01:24 AM","message":"============ User Details ===============auth0|5f561d5ef83add00671b125f","level":"info"}
+{"timeStamp":"10/21/2020, 1:38:32 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 1:38:32 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 1:38:33 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/21/2020, 10:02:37 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:02:37 PM","message":"============ Error During  Create User ===============undefined","level":"info"}
+{"timeStamp":"10/21/2020, 10:02:37 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:02:43 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:02:43 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:02:43 PM","message":"============ User Details ===============auth0|5f561d5ef83add00671b125f","level":"info"}
+{"timeStamp":"10/21/2020, 10:03:48 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:03:48 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:03:48 PM","message":"============ User Details ===============auth0|5f561d5ef83add00671b125f","level":"info"}
+{"timeStamp":"10/21/2020, 10:06:09 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:06:09 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:06:09 PM","message":"============ User Details ===============auth0|5f561d5ef83add00671b125f","level":"info"}
+{"timeStamp":"10/21/2020, 10:07:19 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:07:19 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:07:19 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 10:08:27 PM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:08:45 PM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:08:45 PM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:09:06 PM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:09:06 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:34:32 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:34:32 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:34:32 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 10:34:43 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:34:43 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:34:43 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 10:35:04 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:35:04 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:35:04 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/21/2020, 10:41:39 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:41:39 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:41:40 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 10:42:32 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:42:32 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:42:32 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/21/2020, 10:44:56 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:44:56 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:44:56 PM","message":"============ User Details ===============auth0|5f90692abbda50006a10ed44","level":"info"}
+{"timeStamp":"10/21/2020, 10:45:30 PM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:50:46 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:50:46 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:50:46 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 10:51:44 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:51:44 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:51:44 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/21/2020, 10:57:56 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:57:56 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:57:56 PM","message":"============ User Details ===============auth0|5f90699ba0aa3000751e23c2","level":"info"}
+{"timeStamp":"10/21/2020, 10:57:56 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:57:56 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:57:56 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 10:58:49 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:58:49 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:58:49 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:58:49 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 10:58:49 PM","message":"============ User Details ===============auth0|5f90699ba0aa3000751e23c2","level":"info"}
+{"timeStamp":"10/21/2020, 10:58:49 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 11:00:15 PM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:02:51 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:02:51 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:02:51 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 11:03:44 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:03:44 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:03:44 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/21/2020, 11:07:14 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:07:14 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:07:14 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:07:14 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:07:14 PM","message":"============ User Details ===============auth0|5f90699ba0aa3000751e23c2","level":"info"}
+{"timeStamp":"10/21/2020, 11:07:14 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 11:08:49 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:08:49 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:08:49 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/21/2020, 11:12:13 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:12:13 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:12:13 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 11:12:56 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:12:56 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:12:56 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/21/2020, 11:13:46 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:13:46 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:13:46 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 11:14:22 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:14:22 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:14:22 PM","message":"============ User Details ===============auth0|5f90699ba0aa3000751e23c2","level":"info"}
+{"timeStamp":"10/21/2020, 11:16:00 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:16:00 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:16:00 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/21/2020, 11:42:12 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:42:12 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:42:12 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 11:47:16 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:47:16 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:47:17 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/21/2020, 11:48:03 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:48:03 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:48:04 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 11:48:22 PM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:48:34 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:48:34 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:48:34 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 11:48:45 PM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:49:40 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:49:40 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:49:40 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 11:50:16 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:50:16 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:50:16 PM","message":"============ User Details ===============auth0|5f90699ba0aa3000751e23c2","level":"info"}
+{"timeStamp":"10/21/2020, 11:51:10 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:51:10 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:51:11 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 11:52:30 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:52:30 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:52:30 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/21/2020, 11:53:07 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:53:07 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/21/2020, 11:53:07 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/22/2020, 12:01:10 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:01:10 AM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:01:10 AM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 12:04:01 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:04:01 AM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:04:01 AM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 12:05:17 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:05:17 AM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:05:17 AM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 12:05:44 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:05:44 AM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/22/2020, 12:05:44 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:07:35 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:07:35 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:07:35 AM","message":"============ User Details ===============auth0|5f90692abbda50006a10ed44","level":"info"}
+{"timeStamp":"10/22/2020, 12:08:45 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:08:45 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:08:45 AM","message":"============ User Details ===============auth0|5f90692abbda50006a10ed44","level":"info"}
+{"timeStamp":"10/22/2020, 12:09:48 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:09:48 AM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:09:48 AM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 12:10:23 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:10:23 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:10:23 AM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/22/2020, 12:21:34 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:21:34 AM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:21:34 AM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 12:21:39 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:21:39 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:21:39 AM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/22/2020, 12:21:51 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:21:51 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:21:51 AM","message":"============ User Details ===============auth0|5f90692abbda50006a10ed44","level":"info"}
+{"timeStamp":"10/22/2020, 12:22:50 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:22:50 AM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:22:50 AM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 12:23:12 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:23:12 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:23:13 AM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/22/2020, 12:24:44 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:24:44 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:24:44 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:24:44 AM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:24:44 AM","message":"============ User Details ===============auth0|5f90692abbda50006a10ed44","level":"info"}
+{"timeStamp":"10/22/2020, 12:24:44 AM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 12:25:03 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:25:03 AM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:25:03 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:25:03 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:25:03 AM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 12:25:04 AM","message":"============ User Details ===============auth0|5f90692abbda50006a10ed44","level":"info"}
+{"timeStamp":"10/22/2020, 12:26:00 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:26:00 AM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:26:01 AM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 12:26:20 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:26:20 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:26:20 AM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/22/2020, 12:32:10 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:32:10 AM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/22/2020, 12:33:30 AM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:33:30 AM","message":"============ Get From User (VIP) conversation ===============undefined","level":"info"}
+{"timeStamp":"10/22/2020, 12:34:53 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:37:26 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:37:26 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:37:26 AM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:37:26 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:37:26 AM","message":"============ User Details ===============auth0|5f90692abbda50006a10ed44","level":"info"}
+{"timeStamp":"10/22/2020, 12:37:26 AM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 12:39:14 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:39:14 AM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:39:14 AM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 12:39:40 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:39:40 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:39:40 AM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/22/2020, 12:39:40 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:40:53 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:40:53 AM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:40:53 AM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 12:41:56 AM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:41:56 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:41:56 AM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/22/2020, 12:41:56 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:42:14 AM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:42:32 AM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:42:32 AM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:42:43 AM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 12:42:43 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}

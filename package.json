@@ -16,8 +16,8 @@
   "author": "SoFaDog",
   "license": "ISC",
   "devDependencies": {
-    "@prisma/cli": "^2.7.1",
-    "@prisma/client": "^2.7.1",
+    "@prisma/cli": "^2.9.0",
+    "@prisma/client": "^2.9.0",
     "@types/body-parser": "1.19.0",
     "@types/chai": "^4.2.11",
     "@types/chai-http": "^4.2.0",
@@ -42,8 +42,6 @@
     "winston": "^3.3.3"
   },
   "dependencies": {
-    "@prisma/cli": "^2.7.1",
-    "@prisma/client": "^2.7.1",
     "@types/body-parser": "1.19.0",
     "@types/chai": "^4.2.11",
     "@types/chai-http": "^4.2.0",
