@@ -31,7 +31,7 @@ export class UserRepository {
 	async createUser(req: any) {
 		try {
 
-			const resultUserName = await prisma.user.findOne({
+			const resultUserName = await prisma.user.findUnique({
 				where: {
 					userName: req.body.userName
 				}
@@ -153,7 +153,7 @@ export class UserRepository {
 	}
 	async compose(req: any) {
 		try {
-			let resultFindByUserName = await prisma.user.findOne({
+			let resultFindByUserName = await prisma.user.findUnique({
 				where: {
 					userName: req.body.userName
 				}
@@ -268,7 +268,7 @@ export class UserRepository {
 	}
 	async replyMessage(req: any) {
 		try {
-			let resultFindByUserName = await prisma.user.findOne({
+			let resultFindByUserName = await prisma.user.findUnique({
 				where: {
 					userName: req.body.userName
 				}
@@ -333,7 +333,7 @@ export class UserRepository {
 	}
 	async getConversationByUserName(req: any) {
 		try {
-			let resultFindByUserName = await prisma.user.findOne({
+			let resultFindByUserName = await prisma.user.findUnique({
 				where: {
 					userName: req.params.userName
 				}
