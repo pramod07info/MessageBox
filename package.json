@@ -4,8 +4,8 @@
   "description": "Conversation Api",
   "main": "index.js",
   "engines": {
-    "node": "14.7.0",
-    "npm": "6.14.7"
+    "node": "15.3.0",
+    "npm": "6.14.5"
   },
   "scripts": {
     "dev": "npx nodemon -x ts-node src/server.ts",
