@@ -1437,3 +1437,27 @@
 {"timeStamp":"10/22/2020, 11:18:50 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
 {"timeStamp":"10/22/2020, 11:18:50 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
 {"timeStamp":"10/22/2020, 11:18:50 PM","message":"============ User Details ===============auth0|5f561d5ef83add00671b125f","level":"info"}
+{"timeStamp":"12/2/2020, 7:00:17 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:00:17 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:00:19 PM","message":"============ User Details ===============auth0|5f561d5ef83add00671b125f","level":"info"}
+{"timeStamp":"12/2/2020, 7:05:06 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:05:06 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:05:06 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"12/2/2020, 7:16:53 PM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:17:10 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:17:10 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:17:10 PM","message":"============ User Details ===============auth0|5fc7695961db07006ee55c81","level":"info"}
+{"timeStamp":"12/2/2020, 7:32:01 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:32:02 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:32:02 PM","message":"============ User Details ===============auth0|5fc7695961db07006ee55c81","level":"info"}
+{"timeStamp":"12/2/2020, 7:32:28 PM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:33:32 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:33:32 PM","message":"============ User Details ===============auth0|5fc7695961db07006ee55c81","level":"info"}
+{"timeStamp":"12/2/2020, 7:33:32 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:33:55 PM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:34:11 PM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:48:41 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:48:41 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"12/2/2020, 7:48:50 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:48:50 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"12/2/2020, 7:48:50 PM","message":"============ User Details ===============auth0|5fc7695961db07006ee55c81","level":"info"}
