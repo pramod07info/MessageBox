@@ -10,8 +10,8 @@
   "scripts": {
     "dev": "npx nodemon -x ts-node src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx ts-node src/server.ts",
-    "prepare": "npx prisma generate"
+    "heroku-postbuild": "npx prisma generate",
+    "start": "npx ts-node src/server.ts"
   },
   "keywords": [],
   "author": "SoFaDog",
