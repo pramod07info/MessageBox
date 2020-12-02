@@ -1407,3 +1407,33 @@
 {"timeStamp":"10/22/2020, 12:42:32 AM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
 {"timeStamp":"10/22/2020, 12:42:43 AM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
 {"timeStamp":"10/22/2020, 12:42:43 AM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:02:09 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:02:10 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:02:11 PM","message":"============ User Details ===============undefined","level":"info"}
+{"timeStamp":"10/22/2020, 11:02:11 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:03:14 PM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:03:14 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:03:28 PM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:03:28 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:08:15 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:08:15 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:08:15 PM","message":"============ User Details ===============auth0|5f561d5ef83add00671b125f","level":"info"}
+{"timeStamp":"10/22/2020, 11:11:19 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:11:19 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:11:19 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 11:11:33 PM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:11:56 PM","message":"============ REPLY MESSAGE ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:11:56 PM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:15:39 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:15:39 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:15:39 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 11:17:28 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:17:28 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:17:28 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 11:18:06 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:18:06 PM","message":"============ GET RECIPIENTS LIST ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:18:06 PM","message":"============ User Details ===============auth0|5f5890c533f1cc0070768b2a","level":"info"}
+{"timeStamp":"10/22/2020, 11:18:08 PM","message":"============ GET CONVERSATION BY USERNAME AND RECIPIENT USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:18:50 PM","message":"============ CREATE USER ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:18:50 PM","message":"============ GET CONVERSATION BY USERNAME ===============[object Object]","level":"info"}
+{"timeStamp":"10/22/2020, 11:18:50 PM","message":"============ User Details ===============auth0|5f561d5ef83add00671b125f","level":"info"}
