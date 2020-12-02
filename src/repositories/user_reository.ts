@@ -5,6 +5,8 @@ import { IResponse } from '../model/index';
 import { Conversation } from '../dto/conversation';
 import { stringify } from 'querystring';
 import { Recipients } from '../dto/recipients';
+
+require('dotenv').config();
 var Pusher = require('pusher');
 
 var pusher = new Pusher({
@@ -12,7 +14,7 @@ var pusher = new Pusher({
   key: '086ce0459ce365a098d4',
   secret: '2fa49898de8db4931168',
   cluster: 'ap2',
-  encrypted: true
+  useTLS: true
 });
 const prisma = new PrismaClient({
 	errorFormat: 'minimal',
