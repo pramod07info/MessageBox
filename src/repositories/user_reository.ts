@@ -8,10 +8,10 @@ import { Recipients } from '../dto/recipients';
 var Pusher = require('pusher');
 
 var pusher = new Pusher({
-  appId: '1091454',
-  key: '21d9d6c8f9952176e08b',
-  secret: 'cf8df3149b3ce11c686f',
-  cluster: 'eu',
+  appId: '1116655',
+  key: '086ce0459ce365a098d4',
+  secret: '2fa49898de8db4931168',
+  cluster: 'ap2',
   encrypted: true
 });
 const prisma = new PrismaClient({
