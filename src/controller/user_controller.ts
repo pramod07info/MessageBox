@@ -12,6 +12,7 @@ class UserController {
     public pathConversationUserName = '/conversation/:userName';
     public pathConversationUserNameAndRecipientUserName = '/conversation/:userName/:recipientUserName';
     public pathRecipient = '/recipient/:userName';
+    public pathSearch = '/search/:search';
     public router = express.Router();
     public app = express();
 
@@ -25,6 +26,7 @@ class UserController {
         this.router.get(this.pathConversationUserName,cors(), this.getConversationMessage);
         this.router.get(this.pathConversationUserNameAndRecipientUserName,cors(), this.getConversatonByUserNameAndRecipientUserName);
         this.router.get(this.pathRecipient,cors(), this.getRecipients);
+        this.router.get(this.pathSearch,cors(), this.getSearchData);
     }
     createUser = async (request: express.Request, response: express.Response) => {
         LoggerService.writeInfoLog("============ CREATE USER ==============="+request.body);
@@ -54,6 +56,11 @@ class UserController {
     getRecipients = async (request: express.Request, response: express.Response) => {
         LoggerService.writeInfoLog("============ GET RECIPIENTS LIST ==============="+request.body);
         const result = await this.userRepository.getRecepientList(request)
+        response.send(result);
+    }
+    getSearchData = async (request: express.Request, response: express.Response) => {
+        LoggerService.writeInfoLog("============ GET SEARCH DATA LIST ==============="+request.body);
+        const result = await this.userRepository.getSearchData(request)
         response.send(result);
     }
 }
